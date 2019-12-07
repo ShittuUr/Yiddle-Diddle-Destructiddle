@@ -37,7 +37,7 @@ function mdown(e) {i=1;x=e.pageX;y=e.pageY;}
 function mup(e) {i=0;}
 </script>
 
-<center><font size="5">Final RTR</font><br>Paintable Version</center>
+<center><font size="5">Final RTR</font><br>Paintable Version + Destructo-Gifs</center>
 
 <div id="drawable" onmousedown="mdown(event);" onmousemove="mmove(event);" onmouseup="mup(event);" ontouchstart="mdown(event.touches[0]);" ontouchmove="if (event.touches.length == 1){event.preventDefault();mmove(event.touches[0]);}" ontouchend="mup(event.touches[0]);">
 <svg id="drawing"></svg>
